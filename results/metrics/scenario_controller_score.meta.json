@@ -1,0 +1,9 @@
+{
+  "weights": {
+    "Load Following": 0.35,
+    "Robustness": 0.35,
+    "Control Efficiency": 0.15,
+    "Actuator Preservation": 0.15
+  },
+  "eval_seed": 42
+}

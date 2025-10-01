@@ -1,0 +1,16 @@
+{
+  "eval_seed": 42,
+  "method": "pearson",
+  "constant_metrics": [
+    "arrhenius_exposure",
+    "max_delta_temp_over_limit_C",
+    "reversal_count",
+    "saturation_events",
+    "spectral_error_power",
+    "stability_flag",
+    "time_above_temp_limit_s",
+    "time_in_saturation_s",
+    "time_out_of_band_s",
+    "total_time_unsafe_s"
+  ]
+}

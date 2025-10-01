@@ -1,0 +1,13 @@
+{
+  "note": "Values normalized per scenario across controllers with 5-95 clipping.",
+  "dimensions": [
+    "Robustness",
+    "Control Efficiency",
+    "Oscillation Damping",
+    "Thermal Resilience",
+    "Stability",
+    "Load Following",
+    "Actuator Preservation"
+  ],
+  "eval_seed": 42
+}

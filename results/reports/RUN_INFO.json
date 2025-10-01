@@ -1,0 +1,31 @@
+﻿{
+  "eval_seed": 42,
+  "eval_seeds": [
+    42,
+    101,
+    102
+  ],
+  "PYTHONHASHSEED": null,
+  "python": "3.9.10 (tags/v3.9.10:f2f3f53, Jan 17 2022, 15:14:21) [MSC v.1929 64 bit (AMD64)]",
+  "platform": "Windows-10-10.0.19045-SP0",
+  "numpy": "1.26.4",
+  "pandas": "2.2.3",
+  "controllers": [
+    "PID",
+    "FLC",
+    "RL"
+  ],
+  "scenarios": [
+    "actuator_saturation_challenge",
+    "baseline_steady_state",
+    "cascading_grid_fault_and_recovery",
+    "combined_challenge_final_exam",
+    "deceptive_sensor_noise",
+    "gradual_load_increase_10pct",
+    "multisine_frequency_probe",
+    "parameter_randomization_drills",
+    "prbs_excitation_probe",
+    "steady_state_efficiency_probe",
+    "sudden_load_increase_5pct"
+  ]
+}

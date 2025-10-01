@@ -1,0 +1,16 @@
+{
+  "explained_variance_ratio": [
+    0.5412043989465407,
+    0.2310945228259038
+  ],
+  "features": [
+    "y_actual",
+    "y_target",
+    "freq_hz",
+    "temp_c",
+    "u"
+  ],
+  "eval_seed": 42,
+  "path": "results\\metrics\\policy_manifold_points.parquet",
+  "format": "parquet"
+}

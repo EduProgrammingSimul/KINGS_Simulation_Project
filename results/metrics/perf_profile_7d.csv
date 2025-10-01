@@ -1,0 +1,232 @@
+﻿controller,scenario,dimension,value_norm
+FLC,actuator_saturation_challenge,Robustness,0.65
+FLC,actuator_saturation_challenge,Control Efficiency,0.9999999999956958
+FLC,actuator_saturation_challenge,Oscillation Damping,0.5
+FLC,actuator_saturation_challenge,Thermal Resilience,0.5
+FLC,actuator_saturation_challenge,Stability,1.0
+FLC,actuator_saturation_challenge,Load Following,0.4173847790488686
+FLC,actuator_saturation_challenge,Actuator Preservation,0.6666666666666619
+PID,actuator_saturation_challenge,Robustness,0.8499999999999994
+PID,actuator_saturation_challenge,Control Efficiency,0.0
+PID,actuator_saturation_challenge,Oscillation Damping,0.5
+PID,actuator_saturation_challenge,Thermal Resilience,0.5
+PID,actuator_saturation_challenge,Stability,1.0
+PID,actuator_saturation_challenge,Load Following,0.5918046269866292
+PID,actuator_saturation_challenge,Actuator Preservation,0.461128101254657
+RL,actuator_saturation_challenge,Robustness,0.8292003686312304
+RL,actuator_saturation_challenge,Control Efficiency,0.2875821612031749
+RL,actuator_saturation_challenge,Oscillation Damping,0.5
+RL,actuator_saturation_challenge,Thermal Resilience,0.5
+RL,actuator_saturation_challenge,Stability,1.0
+RL,actuator_saturation_challenge,Load Following,0.9293735700163128
+RL,actuator_saturation_challenge,Actuator Preservation,0.3333333333333333
+FLC,baseline_steady_state,Robustness,0.65
+FLC,baseline_steady_state,Control Efficiency,0.9999999999953958
+FLC,baseline_steady_state,Oscillation Damping,0.25
+FLC,baseline_steady_state,Thermal Resilience,0.5
+FLC,baseline_steady_state,Stability,1.0
+FLC,baseline_steady_state,Load Following,0.4541791234115127
+FLC,baseline_steady_state,Actuator Preservation,0.6666666666666583
+PID,baseline_steady_state,Robustness,0.8499999999999994
+PID,baseline_steady_state,Control Efficiency,0.0
+PID,baseline_steady_state,Oscillation Damping,0.7499999999997204
+PID,baseline_steady_state,Thermal Resilience,0.5
+PID,baseline_steady_state,Stability,1.0
+PID,baseline_steady_state,Load Following,0.4303449740624862
+PID,baseline_steady_state,Actuator Preservation,0.4378919163435871
+RL,baseline_steady_state,Robustness,0.8314742727917382
+RL,baseline_steady_state,Control Efficiency,0.4399443377625633
+RL,baseline_steady_state,Oscillation Damping,0.7499999999997204
+RL,baseline_steady_state,Thermal Resilience,0.5
+RL,baseline_steady_state,Stability,1.0
+RL,baseline_steady_state,Load Following,0.929875074138128
+RL,baseline_steady_state,Actuator Preservation,0.3333333333333333
+FLC,cascading_grid_fault_and_recovery,Robustness,0.65
+FLC,cascading_grid_fault_and_recovery,Control Efficiency,0.9999999999953958
+FLC,cascading_grid_fault_and_recovery,Oscillation Damping,0.25
+FLC,cascading_grid_fault_and_recovery,Thermal Resilience,0.5
+FLC,cascading_grid_fault_and_recovery,Stability,1.0
+FLC,cascading_grid_fault_and_recovery,Load Following,0.4541791234115127
+FLC,cascading_grid_fault_and_recovery,Actuator Preservation,0.6666666666666583
+PID,cascading_grid_fault_and_recovery,Robustness,0.8499999999999994
+PID,cascading_grid_fault_and_recovery,Control Efficiency,0.0
+PID,cascading_grid_fault_and_recovery,Oscillation Damping,0.7499999999997204
+PID,cascading_grid_fault_and_recovery,Thermal Resilience,0.5
+PID,cascading_grid_fault_and_recovery,Stability,1.0
+PID,cascading_grid_fault_and_recovery,Load Following,0.4303449740624862
+PID,cascading_grid_fault_and_recovery,Actuator Preservation,0.4378919163435871
+RL,cascading_grid_fault_and_recovery,Robustness,0.8314742727917382
+RL,cascading_grid_fault_and_recovery,Control Efficiency,0.4399443377625633
+RL,cascading_grid_fault_and_recovery,Oscillation Damping,0.7499999999997204
+RL,cascading_grid_fault_and_recovery,Thermal Resilience,0.5
+RL,cascading_grid_fault_and_recovery,Stability,1.0
+RL,cascading_grid_fault_and_recovery,Load Following,0.929875074138128
+RL,cascading_grid_fault_and_recovery,Actuator Preservation,0.3333333333333333
+FLC,combined_challenge_final_exam,Robustness,0.65
+FLC,combined_challenge_final_exam,Control Efficiency,0.9999999999953958
+FLC,combined_challenge_final_exam,Oscillation Damping,0.25
+FLC,combined_challenge_final_exam,Thermal Resilience,0.5
+FLC,combined_challenge_final_exam,Stability,1.0
+FLC,combined_challenge_final_exam,Load Following,0.4541791234115127
+FLC,combined_challenge_final_exam,Actuator Preservation,0.6666666666666583
+PID,combined_challenge_final_exam,Robustness,0.8499999999999994
+PID,combined_challenge_final_exam,Control Efficiency,0.0
+PID,combined_challenge_final_exam,Oscillation Damping,0.7499999999997204
+PID,combined_challenge_final_exam,Thermal Resilience,0.5
+PID,combined_challenge_final_exam,Stability,1.0
+PID,combined_challenge_final_exam,Load Following,0.4303449740624862
+PID,combined_challenge_final_exam,Actuator Preservation,0.4378919163435871
+RL,combined_challenge_final_exam,Robustness,0.8314742727917382
+RL,combined_challenge_final_exam,Control Efficiency,0.4399443377625633
+RL,combined_challenge_final_exam,Oscillation Damping,0.7499999999997204
+RL,combined_challenge_final_exam,Thermal Resilience,0.5
+RL,combined_challenge_final_exam,Stability,1.0
+RL,combined_challenge_final_exam,Load Following,0.929875074138128
+RL,combined_challenge_final_exam,Actuator Preservation,0.3333333333333333
+FLC,deceptive_sensor_noise,Robustness,0.65
+FLC,deceptive_sensor_noise,Control Efficiency,0.8760920511384508
+FLC,deceptive_sensor_noise,Oscillation Damping,0.25
+FLC,deceptive_sensor_noise,Thermal Resilience,0.5
+FLC,deceptive_sensor_noise,Stability,1.0
+FLC,deceptive_sensor_noise,Load Following,0.4034193192553603
+FLC,deceptive_sensor_noise,Actuator Preservation,0.6666666666666583
+PID,deceptive_sensor_noise,Robustness,0.8499999999999996
+PID,deceptive_sensor_noise,Control Efficiency,0.8035592686595483
+PID,deceptive_sensor_noise,Oscillation Damping,0.7499999999998352
+PID,deceptive_sensor_noise,Thermal Resilience,0.5
+PID,deceptive_sensor_noise,Stability,1.0
+PID,deceptive_sensor_noise,Load Following,0.9081451469880704
+PID,deceptive_sensor_noise,Actuator Preservation,0.3333333333333333
+RL,deceptive_sensor_noise,Robustness,0.8208894189323264
+RL,deceptive_sensor_noise,Control Efficiency,0.0
+RL,deceptive_sensor_noise,Oscillation Damping,0.7160874561919129
+RL,deceptive_sensor_noise,Thermal Resilience,0.5
+RL,deceptive_sensor_noise,Stability,1.0
+RL,deceptive_sensor_noise,Load Following,0.8694631484815627
+RL,deceptive_sensor_noise,Actuator Preservation,0.4892250172458269
+FLC,gradual_load_increase_10pct,Robustness,0.65
+FLC,gradual_load_increase_10pct,Control Efficiency,0.8760920511384508
+FLC,gradual_load_increase_10pct,Oscillation Damping,0.25
+FLC,gradual_load_increase_10pct,Thermal Resilience,0.5
+FLC,gradual_load_increase_10pct,Stability,1.0
+FLC,gradual_load_increase_10pct,Load Following,0.4034193192553603
+FLC,gradual_load_increase_10pct,Actuator Preservation,0.6666666666666583
+PID,gradual_load_increase_10pct,Robustness,0.8499999999999996
+PID,gradual_load_increase_10pct,Control Efficiency,0.8035592686595483
+PID,gradual_load_increase_10pct,Oscillation Damping,0.7499999999998352
+PID,gradual_load_increase_10pct,Thermal Resilience,0.5
+PID,gradual_load_increase_10pct,Stability,1.0
+PID,gradual_load_increase_10pct,Load Following,0.9081451469880704
+PID,gradual_load_increase_10pct,Actuator Preservation,0.3333333333333333
+RL,gradual_load_increase_10pct,Robustness,0.8208894189323264
+RL,gradual_load_increase_10pct,Control Efficiency,0.0
+RL,gradual_load_increase_10pct,Oscillation Damping,0.7160874561919129
+RL,gradual_load_increase_10pct,Thermal Resilience,0.5
+RL,gradual_load_increase_10pct,Stability,1.0
+RL,gradual_load_increase_10pct,Load Following,0.8694631484815627
+RL,gradual_load_increase_10pct,Actuator Preservation,0.4892250172458269
+FLC,multisine_frequency_probe,Robustness,0.65
+FLC,multisine_frequency_probe,Control Efficiency,0.9999999999949554
+FLC,multisine_frequency_probe,Oscillation Damping,0.25
+FLC,multisine_frequency_probe,Thermal Resilience,0.5
+FLC,multisine_frequency_probe,Stability,1.0
+FLC,multisine_frequency_probe,Load Following,0.4228802434290767
+FLC,multisine_frequency_probe,Actuator Preservation,0.6666666666666561
+PID,multisine_frequency_probe,Robustness,0.8499999999999995
+PID,multisine_frequency_probe,Control Efficiency,0.0
+PID,multisine_frequency_probe,Oscillation Damping,0.7499999999996154
+PID,multisine_frequency_probe,Thermal Resilience,0.5
+PID,multisine_frequency_probe,Stability,1.0
+PID,multisine_frequency_probe,Load Following,0.9332314373093378
+PID,multisine_frequency_probe,Actuator Preservation,0.3853227669687431
+RL,multisine_frequency_probe,Robustness,0.818847633272672
+RL,multisine_frequency_probe,Control Efficiency,0.3457844940023413
+RL,multisine_frequency_probe,Oscillation Damping,0.7499999999996154
+RL,multisine_frequency_probe,Thermal Resilience,0.5
+RL,multisine_frequency_probe,Stability,1.0
+RL,multisine_frequency_probe,Load Following,0.8797937304498958
+RL,multisine_frequency_probe,Actuator Preservation,0.3333333333333333
+FLC,parameter_randomization_drills,Robustness,0.65
+FLC,parameter_randomization_drills,Control Efficiency,0.9999999999949352
+FLC,parameter_randomization_drills,Oscillation Damping,0.25
+FLC,parameter_randomization_drills,Thermal Resilience,0.5
+FLC,parameter_randomization_drills,Stability,1.0
+FLC,parameter_randomization_drills,Load Following,0.4262635245014506
+FLC,parameter_randomization_drills,Actuator Preservation,0.6666666666666543
+PID,parameter_randomization_drills,Robustness,0.8499999999999994
+PID,parameter_randomization_drills,Control Efficiency,0.0
+PID,parameter_randomization_drills,Oscillation Damping,0.7499999999997204
+PID,parameter_randomization_drills,Thermal Resilience,0.5
+PID,parameter_randomization_drills,Stability,1.0
+PID,parameter_randomization_drills,Load Following,0.9344472567554912
+PID,parameter_randomization_drills,Actuator Preservation,0.3333333333333333
+RL,parameter_randomization_drills,Robustness,0.8267956838630388
+RL,parameter_randomization_drills,Control Efficiency,0.3296690638273819
+RL,parameter_randomization_drills,Oscillation Damping,0.7499999999997204
+RL,parameter_randomization_drills,Thermal Resilience,0.5
+RL,parameter_randomization_drills,Stability,1.0
+RL,parameter_randomization_drills,Load Following,0.7876839329485013
+RL,parameter_randomization_drills,Actuator Preservation,0.347643034314377
+FLC,prbs_excitation_probe,Robustness,0.65
+FLC,prbs_excitation_probe,Control Efficiency,0.8331948019636002
+FLC,prbs_excitation_probe,Oscillation Damping,0.4330061238904287
+FLC,prbs_excitation_probe,Thermal Resilience,0.5
+FLC,prbs_excitation_probe,Stability,1.0
+FLC,prbs_excitation_probe,Load Following,0.4282064045033085
+FLC,prbs_excitation_probe,Actuator Preservation,0.6666666666666645
+PID,prbs_excitation_probe,Robustness,0.8499999999999975
+PID,prbs_excitation_probe,Control Efficiency,0.0
+PID,prbs_excitation_probe,Oscillation Damping,0.2766926212072095
+PID,prbs_excitation_probe,Thermal Resilience,0.5
+PID,prbs_excitation_probe,Stability,1.0
+PID,prbs_excitation_probe,Load Following,0.5340430951807544
+PID,prbs_excitation_probe,Actuator Preservation,0.4350827996574739
+RL,prbs_excitation_probe,Robustness,0.6852477874427801
+RL,prbs_excitation_probe,Control Efficiency,0.956871342039384
+RL,prbs_excitation_probe,Oscillation Damping,0.8333333333317254
+RL,prbs_excitation_probe,Thermal Resilience,0.5
+RL,prbs_excitation_probe,Stability,1.0
+RL,prbs_excitation_probe,Load Following,0.9227066388570944
+RL,prbs_excitation_probe,Actuator Preservation,0.3333333333333333
+FLC,steady_state_efficiency_probe,Robustness,0.65
+FLC,steady_state_efficiency_probe,Control Efficiency,0.9999999999953958
+FLC,steady_state_efficiency_probe,Oscillation Damping,0.25
+FLC,steady_state_efficiency_probe,Thermal Resilience,0.5
+FLC,steady_state_efficiency_probe,Stability,1.0
+FLC,steady_state_efficiency_probe,Load Following,0.4541791234115127
+FLC,steady_state_efficiency_probe,Actuator Preservation,0.6666666666666583
+PID,steady_state_efficiency_probe,Robustness,0.8499999999999994
+PID,steady_state_efficiency_probe,Control Efficiency,0.0
+PID,steady_state_efficiency_probe,Oscillation Damping,0.7499999999997204
+PID,steady_state_efficiency_probe,Thermal Resilience,0.5
+PID,steady_state_efficiency_probe,Stability,1.0
+PID,steady_state_efficiency_probe,Load Following,0.4303449740624862
+PID,steady_state_efficiency_probe,Actuator Preservation,0.4378919163435871
+RL,steady_state_efficiency_probe,Robustness,0.8314742727917382
+RL,steady_state_efficiency_probe,Control Efficiency,0.4399443377625633
+RL,steady_state_efficiency_probe,Oscillation Damping,0.7499999999997204
+RL,steady_state_efficiency_probe,Thermal Resilience,0.5
+RL,steady_state_efficiency_probe,Stability,1.0
+RL,steady_state_efficiency_probe,Load Following,0.929875074138128
+RL,steady_state_efficiency_probe,Actuator Preservation,0.3333333333333333
+FLC,sudden_load_increase_5pct,Robustness,0.65
+FLC,sudden_load_increase_5pct,Control Efficiency,0.9999999999953958
+FLC,sudden_load_increase_5pct,Oscillation Damping,0.25
+FLC,sudden_load_increase_5pct,Thermal Resilience,0.5
+FLC,sudden_load_increase_5pct,Stability,1.0
+FLC,sudden_load_increase_5pct,Load Following,0.4541791234115127
+FLC,sudden_load_increase_5pct,Actuator Preservation,0.6666666666666583
+PID,sudden_load_increase_5pct,Robustness,0.8499999999999994
+PID,sudden_load_increase_5pct,Control Efficiency,0.0
+PID,sudden_load_increase_5pct,Oscillation Damping,0.7499999999997204
+PID,sudden_load_increase_5pct,Thermal Resilience,0.5
+PID,sudden_load_increase_5pct,Stability,1.0
+PID,sudden_load_increase_5pct,Load Following,0.4303449740624862
+PID,sudden_load_increase_5pct,Actuator Preservation,0.4378919163435871
+RL,sudden_load_increase_5pct,Robustness,0.8314742727917382
+RL,sudden_load_increase_5pct,Control Efficiency,0.4399443377625633
+RL,sudden_load_increase_5pct,Oscillation Damping,0.7499999999997204
+RL,sudden_load_increase_5pct,Thermal Resilience,0.5
+RL,sudden_load_increase_5pct,Stability,1.0
+RL,sudden_load_increase_5pct,Load Following,0.929875074138128
+RL,sudden_load_increase_5pct,Actuator Preservation,0.3333333333333333
