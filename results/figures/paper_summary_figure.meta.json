@@ -1,0 +1,20 @@
+{
+  "figure_id": "paper_summary_figure",
+  "kind": "heatmap",
+  "inputs": {
+    "id": "paper_summary_figure",
+    "kind": "heatmap",
+    "source": "csv",
+    "path": "results/metrics/perf_profile_7d.csv",
+    "rows": "scenario",
+    "cols": "controller",
+    "value_col": "value_norm",
+    "dpi": 300,
+    "caption": "Per-scenario normalized dimensions (summary sheet)."
+  },
+  "outputs": {
+    "png": "results\\figures\\paper_summary_figure.png",
+    "svg": "results\\figures\\paper_summary_figure.svg"
+  },
+  "eval_seed": 42
+}

@@ -1,0 +1,28 @@
+{
+  "figure_id": "radar_perf_profile_all_controllers",
+  "kind": "radar",
+  "inputs": {
+    "id": "radar_perf_profile_all_controllers",
+    "kind": "radar",
+    "source": "csv",
+    "path": "results/metrics/perf_profile_7d.csv",
+    "index": "controller",
+    "dimensions": [
+      "Robustness",
+      "Control Efficiency",
+      "Oscillation Damping",
+      "Thermal Resilience",
+      "Stability",
+      "Load Following",
+      "Actuator Preservation"
+    ],
+    "value_col": "value_norm",
+    "dpi": 300,
+    "caption": "Multi-attribute performance profile (normalized 0-1)."
+  },
+  "outputs": {
+    "png": "results\\figures\\radar_perf_profile_all_controllers.png",
+    "svg": "results\\figures\\radar_perf_profile_all_controllers.svg"
+  },
+  "eval_seed": 42
+}

@@ -1,0 +1,21 @@
+{
+  "figure_id": "heatmap_scenario_controller_comprehensive",
+  "kind": "heatmap",
+  "inputs": {
+    "id": "heatmap_scenario_controller_comprehensive",
+    "kind": "heatmap",
+    "source": "csv",
+    "path": "results/metrics/scenario_controller_score.csv",
+    "rows": "scenario",
+    "cols": "controller",
+    "value_col": "score_norm",
+    "annotate": true,
+    "dpi": 300,
+    "caption": "Scenario-controller normalized comprehensive scores."
+  },
+  "outputs": {
+    "png": "results\\figures\\heatmap_scenario_controller_comprehensive.png",
+    "svg": "results\\figures\\heatmap_scenario_controller_comprehensive.svg"
+  },
+  "eval_seed": 42
+}

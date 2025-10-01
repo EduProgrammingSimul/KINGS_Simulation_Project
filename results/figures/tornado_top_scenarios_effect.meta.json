@@ -1,0 +1,19 @@
+{
+  "figure_id": "tornado_top_scenarios_effect",
+  "kind": "tornado",
+  "inputs": {
+    "id": "tornado_top_scenarios_effect",
+    "kind": "tornado",
+    "source": "csv",
+    "path": "results/metrics/combined_metrics_tidy.csv",
+    "baseline": "PID",
+    "challenger": "RL",
+    "dpi": 300,
+    "title": "RL vs PID metric deltas"
+  },
+  "outputs": {
+    "png": "results\\figures\\tornado_top_scenarios_effect.png",
+    "svg": "results\\figures\\tornado_top_scenarios_effect.svg"
+  },
+  "eval_seed": 42
+}

@@ -1,0 +1,19 @@
+{
+  "figure_id": "metric_effort_l1_summary",
+  "kind": "metric_summary",
+  "inputs": {
+    "id": "metric_effort_l1_summary",
+    "kind": "metric_summary",
+    "source": "csv",
+    "path": "results/metrics/combined_metrics_tidy.csv",
+    "metric": "effort_l1",
+    "dpi": 300,
+    "title": "Control Effort",
+    "ylabel": "|u| dt"
+  },
+  "outputs": {
+    "png": "results\\figures\\metric_effort_l1_summary.png",
+    "svg": "results\\figures\\metric_effort_l1_summary.svg"
+  },
+  "eval_seed": 42
+}

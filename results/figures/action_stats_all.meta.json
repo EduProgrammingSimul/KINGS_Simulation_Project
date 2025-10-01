@@ -1,0 +1,16 @@
+{
+  "figure_id": "action_stats_all",
+  "kind": "action_stats",
+  "inputs": {
+    "id": "action_stats_all",
+    "kind": "action_stats",
+    "source": "timeseries",
+    "dpi": 300,
+    "caption": "Distribution of valve actions by controller."
+  },
+  "outputs": {
+    "png": "results\\figures\\action_stats_all.png",
+    "svg": "results\\figures\\action_stats_all.svg"
+  },
+  "eval_seed": 42
+}

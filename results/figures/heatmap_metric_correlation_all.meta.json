@@ -1,0 +1,18 @@
+{
+  "figure_id": "heatmap_metric_correlation_all",
+  "kind": "corr_heatmap",
+  "inputs": {
+    "id": "heatmap_metric_correlation_all",
+    "kind": "corr_heatmap",
+    "source": "csv",
+    "path": "results/metrics/corr_metrics.csv",
+    "method": "pearson",
+    "dpi": 300,
+    "caption": "Pearson correlation across KPIs."
+  },
+  "outputs": {
+    "png": "results\\figures\\heatmap_metric_correlation_all.png",
+    "svg": "results\\figures\\heatmap_metric_correlation_all.svg"
+  },
+  "eval_seed": 42
+}

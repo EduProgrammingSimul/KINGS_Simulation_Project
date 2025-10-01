@@ -1,0 +1,19 @@
+{
+  "figure_id": "metric_max_freq_deviation_hz_summary",
+  "kind": "metric_summary",
+  "inputs": {
+    "id": "metric_max_freq_deviation_hz_summary",
+    "kind": "metric_summary",
+    "source": "csv",
+    "path": "results/metrics/combined_metrics_tidy.csv",
+    "metric": "max_freq_deviation_hz",
+    "dpi": 300,
+    "title": "Max Frequency Deviation",
+    "ylabel": "Hz"
+  },
+  "outputs": {
+    "png": "results\\figures\\metric_max_freq_deviation_hz_summary.png",
+    "svg": "results\\figures\\metric_max_freq_deviation_hz_summary.svg"
+  },
+  "eval_seed": 42
+}
