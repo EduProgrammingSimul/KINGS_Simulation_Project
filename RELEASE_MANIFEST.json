@@ -1,0 +1,26 @@
+{
+  "analysis/metrics_engine.py": {
+    "sha256": "ecbf77e56cd3b6381673b744305b7965792e740fa3f5eb826fd2933f96938191",
+    "size": 9123
+  },
+  "analysis/performance_profiles.py": {
+    "sha256": "b6072af7676bd6aaf7a056cb5c6f8427ff5492fcbaf11af56b381c6f06e72869",
+    "size": 7506
+  },
+  "analysis/visualization_engine.py": {
+    "sha256": "890e71aed17a45213a0ea01f09e6ddd36f3daa6d48f37a7eaaacf0df9bfa3b3a",
+    "size": 8634
+  },
+  "scripts/validate_and_report.py": {
+    "sha256": "73eee0044fc8209a7d257d56ba9ca252dec08509084c0bc01a75f0e11f6bcace",
+    "size": 5081
+  },
+  "config/metrics_registry.yaml": {
+    "sha256": "0811f60748432fc3c36b87e0be787d2347d66707a52c5800a5607ea59854a02a",
+    "size": 904
+  },
+  "config/metrics_registry.json": {
+    "sha256": "9a7f802f36f836b705c37bacdedf239c70cb5102a78b879db0af525030ad09a0",
+    "size": 1245
+  }
+}
