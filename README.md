@@ -62,6 +62,7 @@ python scripts/validate_and_report.py --controllers PID FLC RL --scenarios all -
 
 Three excitation-oriented scenarios (`prbs_excitation_probe`, `multisine_frequency_probe`, and `actuator_saturation_challenge`) have been added to exercise closed-loop bandwidth, coherence, and actuator margin metrics.
 
+
 ### New Analysis Artefacts
 
 The validation report now includes:
@@ -70,17 +71,3 @@ The validation report now includes:
 * `frequency_domain_metrics.csv` – PSD-derived indicators and damping estimates for excitation scenarios.
 * `perf_profile_7d_ci.csv` – bootstrap confidence intervals for the seven composite dimensions used in radar plots.
 * `combined_metrics_summary.csv` – per-metric mean, standard deviation, and sample counts across seeds.
-
-## 5. Deployment Steps
-
-The following checklist captures the workflow maintainers use to publish a validated controller bundle and the supporting UI to an operations environment:
-
-1. **Lock Dependencies** – Create a fresh virtual environment and install `requirements.txt` (plus `requirements_ui.txt` if the Streamlit interface will be hosted) so the deployment runtime matches the validation baseline.
-2. **Select Controller Artefacts** – Choose the controller export directories from `results/` (e.g., `results/pid/latest/` or `results/rl/<timestamp>/`). Ensure `config/parameters.py` contains the parameter snapshot you want to ship.
-3. **Run Full Validation** – Execute `python scripts/full_eval.py --suite-file config/scenario_suite.txt --controllers <list> --out results/deploy_candidate` followed by `python scripts/validate_and_report.py --controllers <list> --scenarios all --out results/deploy_candidate` to regenerate metrics, plots, and the Markdown report for the release candidate.
-4. **Package Release Bundle** – Copy the selected controller weights, generated validation report, and summary CSVs into a versioned folder (for example `artifacts/<release_tag>/`) and archive it for transfer. Update `RELEASE_MANIFEST.json` with the new artefact hashes if applicable.
-5. **Provision Runtime Environment** – On the target machine, replicate the virtual environment, set `PYTHONPATH=.` (or install the package editable with `pip install -e .` if packaging is configured), and ensure the simulation dependencies (NumPy, control, Gymnasium) have compatible native libraries.
-6. **Deploy Interactive UI (Optional)** – To expose the monitoring dashboard, run `streamlit run ui/app.py --server.address 0.0.0.0 --server.port 8501` inside a process manager such as `systemd` or `supervisord`, pointing it at the deployed controller artefacts and results directory.
-7. **Post-Deployment Smoke Test** – Trigger `python scripts/smoke_route_check.py` or run a limited scenario subset to confirm the environment can load controllers, generate telemetry, and render plots without errors before handing over to operators.
-
-
